@@ -16,7 +16,7 @@ drwxr-xr-x 2 wh0 wh0 4096 Mar  9 22:31 directory
 -rwxr-xr-x 1 wh0 wh0    5 Mar  9 22:31 executable
 -rw-r--r-- 1 wh0 wh0    3 Mar  9 22:31 file
 lrwxrwxrwx 1 wh0 wh0    4 Mar  9 22:31 symlink -> file
-$ dump.sh t
+$ dump.sh test
 mkdir test
 cat >test/file <<'DUMP_EOF'
 hi
