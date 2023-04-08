@@ -1,4 +1,4 @@
-okay imagine you want to copy want to transfer a directory of text files to your server.
+okay imagine you want to transfer a directory of text files to your server.
 you have access to the terminal there, so you can paste something in.
 easy, `tar -cz ... | base64`, copy, `base64 -d | tar -xz`, paste, ctrl+d.
 
